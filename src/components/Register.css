@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    scale: 1;
+}
+
+.userBarr, .passBarr, .genderBarr, .nameBarr, .ageBarr{
+    padding: 5px;
+}
+
+.contentt{
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.rightt {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 16rem 0rem;
+    font-size: 30px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 40%;
+    right: 0;
+}
+
+.leftt {
+    background-image: url('../images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0rem 0rem;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    z-index: -1;
+
+}
+.usernameFieldd, .passwordFieldd, .ageFieldd, .nameFieldd, .genderFieldd{
+    font-size: 18px;
+    border: 1px solid rgba(96, 96, 96, 1);
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 15px;
+    outline: none;
+}
+
+.loginBtnn{
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 6px 20px;
+    border: 2px solid rgb(78, 78, 78);
+    text-decoration: none;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: 0.1s ease-in;
+}
+
+.loginBtnn:hover{
+    background-color: transparent;
+    color: rgb(78, 78, 78);
+}
+
+.mainQuotee{
+    color: rgb(78, 78, 78);
+    font-size: 65px;
+}
+
+.blockk{
+    margin-top: -75px;
+}
+
+

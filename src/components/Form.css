@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    scale: 1;
+}
+
+.split2 {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+.left2 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(94, 94, 94);
+    padding: 0rem 0rem;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 60%;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+  
+.right2 {
+    right: 0;
+    background-color: white;
+    height: 100%;
+    width: 40%;
+}
+  
+  .centered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .chooser{
+      display: none;
+  }
+
+  .uploadArea{
+      cursor: pointer;
+  }
+
+  .leftText{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 100px;
+    padding-right: 55px;
+    padding-top: 100px;
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 45px;
+  }
+
+  .uploadBtn{
+    margin-top: 10px;
+    margin-left: 315px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 6px 20px;
+    border: 2px solid rgb(94, 94, 94);;
+    text-decoration: none;
+    background-color: rgb(94, 94, 94);;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: 0.1s ease-in;
+}
+
+.uploadBtn:hover{
+    background-color: white;
+    color:rgb(94, 94, 94);;
+}
+
+.Box1{
+    border: 1px solid #262626;
+    margin: 4px;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    outline: none;
+    resize: none;
+}
+.quote{
+    font-size: 60px;
+    margin-right: 100px;
+    margin-bottom: 5px;
+}
+
+.quote2{
+    font-size: 40px;
+    margin-right: 100px;
+    margin-bottom: 5px;
+}
